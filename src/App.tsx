@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components'
+import Header from "./Components/global/header/Header";
+import Footer from "./Components/global/footer/Footer";
+
+import * as Styled from './Components/pages/home/App.style'
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Main from "./Main";
+import { theme } from './utils/theming/theme';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload!!.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Styled.ContainerWrap>
+          <Header />
+          <Main />
+          <Footer />
+        </Styled.ContainerWrap>
+      </Router>
+    </ThemeProvider>
   );
 }
 
