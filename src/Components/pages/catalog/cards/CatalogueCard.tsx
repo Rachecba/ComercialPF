@@ -14,7 +14,8 @@ function CatalogueCard({ image, title, price, sale }: Props) {
       </Style.Product>
       <Style.Caption>
         <h5>{title}</h5>
-        <h6>	₡{price} <span><i className="fas fa-tag"></i></span></h6>
+        <h6>Precio unitario</h6>
+        <p>	₡{price} <span><i className="fas fa-tag"></i></span></p>
       </Style.Caption>
     </Style.CardContainer>
   )

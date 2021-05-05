@@ -15,6 +15,7 @@ import * as Style from './Contact.style'
 
 function Contact() {
   const [state, handleSubmit] = useForm("mqkagopr");
+
   if (state.succeeded) {
     return (
       <Style.MessageSendContainer>
@@ -73,11 +74,11 @@ function Contact() {
                   <span>
                     <i className="fas fa-phone"></i>
                   </span>
-                    888-888
+                    +506 8721-7373
                     <Style.Icons>
                     <ul>
-                      <li><Link to='#'><i className="fab fa-facebook-f"></i></Link></li>
-                      <li><Link to="#"><i className="fab fa-instagram"></i></Link></li>
+                      <li><a href='https://www.facebook.com/comercialpf'><i className="fab fa-facebook-f"></i></a></li>
+                      <li><a href='https://www.instagram.com/comercial.pf/?hl=es-la'><i className="fab fa-instagram"></i></a></li>
                     </ul>
                   </Style.Icons>
                 </Style.Contact>

@@ -33,8 +33,8 @@ function Footer() {
             <h6>Síguenos</h6>
             <Style.Icons>
               <ul>
-                <li><Link to='#'><i className="fab fa-facebook-f"></i></Link></li>
-                <li><Link to='#'><i className="fab fa-instagram"></i></Link></li>
+                <li><a href='https://www.facebook.com/comercialpf'><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href='https://www.instagram.com/comercial.pf/?hl=es-la'><i className="fab fa-instagram"></i></a></li>
               </ul>
             </Style.Icons>
           </Col>
