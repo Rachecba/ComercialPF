@@ -27,9 +27,6 @@ function WhoWeAre() {
             Hoy llevamos a todo el país marcas de vinos de regiones de España, Alemania, Italia y de Chile. Licores de purísima
             calidad, botellas de colección (Licores), y Productos para el área de Hostelería y Restauración.
                 </p>
-          <Style.Slogan>
-            <h2 className="slogan"><i>"Exclusivos, incomparables, variados… así somos en <b>Comercial PF.</b> Así son nuestros vinos y licores"</i></h2>
-          </Style.Slogan>
         </Style.Intro>
       </Col>
     </div>

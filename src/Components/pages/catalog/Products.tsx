@@ -13,9 +13,8 @@ function Products() {
       return (
         <Col sm='12' md='6' lg='4'>
           <CatalogueCard
-            amount={product.cantidadCaja}
             title={product.nombre}
-            price={product.precioCaja}
+            price={product.precioUnitario}
             image={product.imagen}
             key={index}
           />

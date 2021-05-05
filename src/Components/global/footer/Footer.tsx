@@ -14,7 +14,7 @@ function Footer() {
             <Style.Links>
               <ul className="shortcuts">
                 <li><Link to={'/'}>Inicio</Link></li>
-                <li><Link to={'/products'}>Productos</Link></li>
+                <li><Link to={'/product'}>Productos</Link></li>
                 <li><Link to={'/contact'}>Contáctenos</Link></li>
               </ul>
             </Style.Links>
@@ -23,9 +23,9 @@ function Footer() {
             <h6>Contacto</h6>
             <Style.Links>
               <ul>
-                <li><span><i className="fas fa-phone"></i></span> 888-8888</li>
-                <li><span><i className="fas fa-map-marker-alt"></i></span> Bla bla bla bla bla bla bla</li>
-                <li><span><i className="fas fa-envelope"></i></span> Correo</li>
+                <li><span><i className="fas fa-phone"></i></span> +506 8721-7373</li>
+                <li><span><i className="fas fa-envelope"></i></span> hazel@comercialpf.com</li>
+                <li><span><i className="fas fa-envelope"></i></span> tperez@comercialpf.com</li>
               </ul>
             </Style.Links>
           </Col>

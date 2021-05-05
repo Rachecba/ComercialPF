@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Props } from './CatalogueCard.interface'
 import * as Style from './CatalogueCard.style'
 
-function CatalogueCard({ amount, image, title, price, sale }: Props) {
+function CatalogueCard({ image, title, price, sale }: Props) {
 
   return (
     <Style.CardContainer>
@@ -14,8 +14,7 @@ function CatalogueCard({ amount, image, title, price, sale }: Props) {
       </Style.Product>
       <Style.Caption>
         <h5>{title}</h5>
-        <h6>Caja de {amount} unidades</h6>
-        <p>	₡{price} <span><i className="fas fa-tag"></i></span></p>
+        <h6>	₡{price} <span><i className="fas fa-tag"></i></span></h6>
       </Style.Caption>
     </Style.CardContainer>
   )
