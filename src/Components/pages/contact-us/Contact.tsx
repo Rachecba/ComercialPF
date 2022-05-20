@@ -74,7 +74,7 @@ function Contact() {
                   <span>
                     <i className="fas fa-phone"></i>
                   </span>
-                    +506 8721-7373
+                    +506 2224-3645
                     <Style.Icons>
                     <ul>
                       <li><a href='https://www.facebook.com/comercialpf'><i className="fab fa-facebook-f"></i></a></li>

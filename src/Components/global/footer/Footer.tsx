@@ -23,7 +23,7 @@ function Footer() {
             <h6>Contacto</h6>
             <Style.Links>
               <ul>
-                <li><span><i className="fas fa-phone"></i></span> +506 8721-7373</li>
+                <li><span><i className="fas fa-phone"></i></span> +506 2224-3645</li>
                 <li><span><i className="fas fa-envelope"></i></span> hazel@comercialpf.com</li>
                 <li><span><i className="fas fa-envelope"></i></span> tperez@comercialpf.com</li>
               </ul>
