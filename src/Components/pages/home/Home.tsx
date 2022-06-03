@@ -5,23 +5,23 @@ import WhoWeAre from "./whoWeAre/whoWeAre"
 function Home() {
     const wines = [
         {
-            nombre: 'Corona de Aragon Crianza',
-            precioUnitario: '5,900',
-            litros: '750 ML',
-            imagen: 'assets/wines/Corona-de-Aragon-Crianza.jpg',
+            nombre: 'Ginebra Jodhpur',
+            precioUnitario: '11,000',
+            litros: '700 ML',
+            imagen: 'assets/wines/Ginebraa-Jodhpur.jpg',
         },
         {
-            nombre: 'Castillo Monte La Reina Cuveé Privee',
-            precioUnitario: '16,000',
-            litros: '750 ML',
-            imagen: 'assets/wines/Castillo-Monte-la-Reina-Cuvee-Privee.jpg',
+            nombre: 'Vodka Krova',
+            precioUnitario: '9,000',
+            litros: '700 ML',
+            imagen: 'assets/wines/Vodka-Krova.jpg',
         },
         {
-            nombre: 'Sardá Reserva',
-            precioUnitario: '8,000',
-            litros: '750 ML',
-            imagen: 'assets/wines/Sarda-Reserva.jpg',
-        }
+            nombre: 'Ron Relicario Superior',
+            precioUnitario: '15,000',
+            litros: '700 ML',
+            imagen: 'assets/wines/Ron-Relicario-Superior-700ml.jpg',
+        },
     ]
 
     return (

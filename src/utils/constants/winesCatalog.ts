@@ -22,7 +22,6 @@ export const catalogoVinos = [
     paisOrigen: 'España, Cariñena',
     bodegasOrigen: 'Grandes Vinos',
 },
-
 {
     nombre: 'Castillo Monte La Reina Crianza',
     tipo: 'tintos',
@@ -34,7 +33,6 @@ export const catalogoVinos = [
     paisOrigen: 'España, Toro',
     bodegasOrigen: 'Castillo Monte la Reina',
 },
-
 {
     nombre: 'Castillo Monte La Reina Joven',
     tipo: 'tintos',
@@ -46,8 +44,6 @@ export const catalogoVinos = [
     paisOrigen: 'España, Toro',
     bodegasOrigen: 'Castillo Monte la Reina',
 },
-
-
 {
     nombre: 'IGLUP Vino Blanco',
     tipo: 'blancos',
@@ -70,7 +66,6 @@ export const catalogoVinos = [
     paisOrigen: 'España, Cariñena',
     bodegasOrigen: 'Grandes Vinos',
 },
-
 ]
 
 export const catalogoRon = [{
@@ -146,7 +141,7 @@ export const catalogoVodka = [{
     tipo: 'vodka',
     litros: '700 ML',
     imagen: 'assets/wines/Vodka-Krova.jpg',
-    precioUnitario: '11,500',
+    precioUnitario: '9,000',
     precioCaja: '43,500',
     paisOrigen: '',
     cantidadCaja: '3',
@@ -220,8 +215,19 @@ export const catalogoLicores = [{
     tipo: 'licor',
     litros: '700 ML',
     imagen: 'assets/wines/BVLand-almendras.jpg',
-    precioUnitario: '8,000',
+    precioUnitario: '6,000',
     precioCaja: '48,000',
+    paisOrigen: '',
+    cantidadCaja: '6',
+    bodegasOrigen: 'Beveland, SA',
+},
+{
+    nombre: 'Licor de Uva Moscatel ¨Igardi¨',
+    tipo: 'licor',
+    litros: '750 ML',
+    imagen: 'assets/wines/Moscatel-Igardi.jpg',
+    precioUnitario: '8,500',
+    precioCaja: '51,000',
     paisOrigen: '',
     cantidadCaja: '6',
     bodegasOrigen: 'Beveland, SA',
@@ -278,7 +284,7 @@ export const catalogoLicores = [{
     precioUnitario: '4,700',
     precioCaja: '56,400',
     paisOrigen: '',
-    cantidadCaja: '12',
+    cantidadCaja: '12', 
     bodegasOrigen: 'Deva, SA',
 },
 {
@@ -297,6 +303,61 @@ export const catalogoLicores = [{
     tipo: 'licor',
     litros: '1000 ML',
     imagen: 'assets/wines/Licor-almendra-Disco-Baja.jpg',
+    precioUnitario: '4,700',
+    precioCaja: '56,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Deva, SA',
+},
+{
+    nombre: 'Licor de Banana KAMEL',
+    tipo: 'licor',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Licor-Banana-KAMEL.jpg',
+    precioUnitario: '4,700',
+    precioCaja: '56,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Deva, SA',
+},
+{
+    nombre: 'Licor de Fresa KAMEL',
+    tipo: 'licor',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Licor-Fresa-KAMEL.jpg',
+    precioUnitario: '4,700',
+    precioCaja: '56,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Deva, SA',
+},
+{
+    nombre: 'Licor de Melocotòn Blue KAMEL',
+    tipo: 'licor',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Licor-Peach-KAMEL.jpg',
+    precioUnitario: '4,700',
+    precioCaja: '56,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Deva, SA',
+},
+{
+    nombre: 'Licor de Triple Sec KAMEL',
+    tipo: 'licor',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Licor-Triplesec-KAMEL.jpg',
+    precioUnitario: '4,700',
+    precioCaja: '56,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Deva, SA',
+},
+{
+    nombre: 'Licor de Cacao Oscuro KAMEL',
+    tipo: 'licor',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Licor-Cacao-KAMEL.jpg',
     precioUnitario: '4,700',
     precioCaja: '56,400',
     paisOrigen: '',
