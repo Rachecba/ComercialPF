@@ -24,6 +24,17 @@ export const catalogoVinos = [
     bodegasOrigen: 'Castillo Monte la Reina',
 },
 {
+    nombre: 'Vino Espumoso Mount Blau',
+    tipo: 'blancos',
+    litros: '750 ML',
+    imagen: 'assets/wines/Mount-Blau.jpg',
+    precioUnitario: '2,500',
+    precioCaja: '15,000',
+    cantidadCaja: '6',
+    paisOrigen: 'España',
+    bodegasOrigen: 'Lopez Morenas',
+},
+{
     nombre: 'IGLUP Vino Blanco',
     tipo: 'blancos',
     litros: '200 ML',
