@@ -1,16 +1,6 @@
 export const catalogoVinos = [
 
-{
-    nombre: 'Corona de Aragon Crianza',
-    tipo: 'tintos',
-    litros: '750 ML',
-    imagen: 'assets/wines/Corona-de-Aragon-Crianza.jpg',
-    precioUnitario: '5,900',
-    precioCaja: '35,400',
-    cantidadCaja: '6',
-    paisOrigen: 'España, Cariñena',
-    bodegasOrigen: 'Grandes Vinos',
-},
+
 {
     nombre: 'Corona de Aragon Reserva',
     tipo: 'tintos',
@@ -26,7 +16,7 @@ export const catalogoVinos = [
     nombre: 'Castillo Monte La Reina Crianza',
     tipo: 'tintos',
     litros: '750 ML',
-    imagen: '',
+    imagen: 'assets/wines/Monte-La-Reina-Crianza.jpg',
     precioUnitario: '8,500',
     precioCaja: '51,000',
     cantidadCaja: '6',
