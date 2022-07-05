@@ -259,7 +259,7 @@ export const catalogoLicores = [{
     nombre: 'Licor de Melocotón BV Land',
     tipo: 'licor',
     litros: '700 ML',
-    imagen: 'assets/wines/BVLand-almendras.jpg',
+    imagen: 'assets/wines/Licor-de-peach.jpg',
     precioUnitario: '6,000',
     precioCaja: '48,000',
     paisOrigen: '',
