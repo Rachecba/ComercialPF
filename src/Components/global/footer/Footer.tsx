@@ -24,7 +24,7 @@ function Footer() {
             <Style.Links>
               <ul>
                 <li><span><i className="fas fa-phone"></i></span> +506 2224-3645</li>
-                <li><span><i className="fas fa-envelope"></i></span> hazel@comercialpf.com</li>
+                <li><span><i className="fas fa-envelope"></i></span> manuel@comercialpf.com</li>
                 <li><span><i className="fas fa-envelope"></i></span> tperez@comercialpf.com</li>
               </ul>
             </Style.Links>
@@ -35,6 +35,7 @@ function Footer() {
               <ul>
                 <li><a href='https://www.facebook.com/comercialpf'><i className="fab fa-facebook-f"></i></a></li>
                 <li><a href='https://www.instagram.com/comercial.pf/?hl=es-la'><i className="fab fa-instagram"></i></a></li>
+                <li><a href='https://api.whatsapp.com/send?phone=50687217373'><i className="fab fa-whatsapp"></i></a></li>
               </ul>
             </Style.Icons>
           </Col>

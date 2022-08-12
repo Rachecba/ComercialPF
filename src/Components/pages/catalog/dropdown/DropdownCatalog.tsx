@@ -36,13 +36,11 @@ function DropdownCatalog({ setSelected }: Props) {
                             </Dropdown.Toggle>
                                     <Dropdown.Menu>
                                         <Dropdown.Item onClick={handleSelect}>Ron</Dropdown.Item>
-                                        <Dropdown.Item onClick={handleSelect}>Whiskey</Dropdown.Item>
                                         <Dropdown.Item onClick={handleSelect}>Ginebra</Dropdown.Item>
                                         <Dropdown.Item onClick={handleSelect}>Tequila</Dropdown.Item>
                                         <Dropdown.Item onClick={handleSelect}>Vodka</Dropdown.Item>
                                         <Dropdown.Item onClick={handleSelect}>Licor</Dropdown.Item>
                                         <Dropdown.Item onClick={handleSelect}>Brandy</Dropdown.Item>
-                                        <Dropdown.Item onClick={handleSelect}>Moscatel</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </Style.Liquor>
