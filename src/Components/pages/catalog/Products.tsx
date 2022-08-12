@@ -37,7 +37,7 @@ function Products() {
 
   const [searchFilter, setSearchFilter] = React.useState('');
 
-  console.log(allProducts)
+  console.log()
 
   return (
     <div>
