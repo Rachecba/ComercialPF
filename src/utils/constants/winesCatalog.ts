@@ -91,26 +91,16 @@ export const catalogoVinos = [
 },
 ]
 
-export const catalogoRon = [{
-    nombre: 'Ron Blanco ISSI',
-    tipo: 'ron',
-    litros: '1000 ML',
-    imagen: 'assets/wines/Issi-Ron-Blanco-1L.jpg',
-    precioUnitario: '4,800',
-    precioCaja: '54,000',
-    paisOrigen: '',
-    cantidadCaja: '12',
-    bodegasOrigen: 'Beveland, SA',
-},
+export const catalogoRon = [
 {
-    nombre: 'Ron Dorado ISSI',
+    nombre: 'Ron Relicario Superior',
     tipo: 'ron',
-    litros: '1000 ML',
-    imagen: 'assets/wines/Ron-Dorado-ISSI-1L.jpg',
-    precioUnitario: '4,800',
-    precioCaja: '54,000',
+    litros: '700 ML',
+    imagen: 'assets/wines/Ron-Relicario-Superior-700ml.jpg',
+    precioUnitario: '15,000',
+    precioCaja: '64,000',
     paisOrigen: '',
-    cantidadCaja: '12',
+    cantidadCaja: '4',
     bodegasOrigen: 'Beveland, SA',
 },
 {
@@ -125,17 +115,6 @@ export const catalogoRon = [{
     bodegasOrigen: 'Beveland, SA',
 },
 {
-    nombre: 'Ron Relicario Superior',
-    tipo: 'ron',
-    litros: '700 ML',
-    imagen: 'assets/wines/Ron-Relicario-Superior-700ml.jpg',
-    precioUnitario: '15,000',
-    precioCaja: '64,000',
-    paisOrigen: '',
-    cantidadCaja: '4',
-    bodegasOrigen: 'Beveland, SA',
-},
-{
     nombre: 'Ron Relicario Supremo',
     tipo: 'ron',
     litros: '700 ML',
@@ -144,6 +123,17 @@ export const catalogoRon = [{
     precioCaja: '114,000',
     paisOrigen: '',
     cantidadCaja: '4',
+    bodegasOrigen: 'Beveland, SA',
+},
+{
+    nombre: 'Ron Blanco ISSI',
+    tipo: 'ron',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Issi-Ron-Blanco-1L.jpg',
+    precioUnitario: '4,800',
+    precioCaja: '54,000',
+    paisOrigen: '',
+    cantidadCaja: '12',
     bodegasOrigen: 'Beveland, SA',
 },
 ]
@@ -227,6 +217,21 @@ export const catalogoTequila = [
         imagen: 'assets/wines/Agave-Blanco-Issi.jpg',
         precioUnitario: '7,500',
         precioCaja: '90,000',
+        paisOrigen: '',
+        cantidadCaja: '12',
+        bodegasOrigen: 'Beveland SA',
+    },
+]
+
+export const catalogoBrandy = [
+    
+    {
+        nombre: 'Brandy Issi',
+        tipo: 'brandy',
+        litros: '1000 ML',
+        imagen: 'assets/wines/Brandy-Issi.jpg',
+        precioUnitario: '7,700',
+        precioCaja: '92,400',
         paisOrigen: '',
         cantidadCaja: '12',
         bodegasOrigen: 'Beveland SA',

@@ -1,9 +1,9 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
+import { Col, Row} from "reactstrap";
 import SearchBar from "../../global/search/SearchBar";
 import CatalogueCard from "./cards/CatalogueCard";
 import DropdownCatalog from "./dropdown/DropdownCatalog";
-import { catalogoVinos, catalogoRon, catalogoVodka, catalogoGin, catalogoTequila, catalogoLicores } from '../../../utils/constants/winesCatalog'
+import { catalogoVinos, catalogoRon, catalogoVodka, catalogoGin, catalogoTequila, catalogoLicores, catalogoBrandy } from '../../../utils/constants/winesCatalog'
 
 import * as Style from './Products.style'
 
@@ -31,13 +31,13 @@ function Products() {
     )
   }
 
-  const allProducts = catalogoVinos.concat(catalogoRon, catalogoGin, catalogoLicores, catalogoRon, catalogoTequila, catalogoVodka)
+  const allProducts = catalogoVinos.concat(catalogoRon, catalogoGin, catalogoLicores, catalogoTequila, catalogoVodka, catalogoBrandy)
 
   const [typeFilter, setTypeFilter] = React.useState('tintos');
 
   const [searchFilter, setSearchFilter] = React.useState('');
 
-  console.log()
+  console.log(allProducts)
 
   return (
     <div>

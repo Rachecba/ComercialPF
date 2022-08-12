@@ -4,7 +4,6 @@ import { Props } from './CatalogueCard.interface'
 import * as Style from './CatalogueCard.style'
 
 function CatalogueCard({ image, title, price, sale }: Props) {
-
   return (
     <Style.CardContainer>
       <Style.Product>
