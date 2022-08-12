@@ -14,7 +14,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import * as Style from './Contact.style'
 
 function Contact() {
-  const [state, handleSubmit] = useForm("mqkagopr");
+  const [state, handleSubmit] = useForm("mnqrqdew");
 
   if (state.succeeded) {
     return (
@@ -79,6 +79,7 @@ function Contact() {
                     <ul>
                       <li><a href='https://www.facebook.com/comercialpf'><i className="fab fa-facebook-f"></i></a></li>
                       <li><a href='https://www.instagram.com/comercial.pf/?hl=es-la'><i className="fab fa-instagram"></i></a></li>
+                      <li><a href='https://api.whatsapp.com/send?phone=50687217373'><i className="fab fa-whatsapp"></i></a></li>
                     </ul>
                   </Style.Icons>
                 </Style.Contact>
