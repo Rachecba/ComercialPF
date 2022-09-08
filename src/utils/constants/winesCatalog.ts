@@ -136,8 +136,18 @@ export const catalogoRon = [
     cantidadCaja: '12',
     bodegasOrigen: 'Beveland, SA',
 },
+{
+nombre: 'Ron Dorado ISSI',
+tipo: 'ron',
+litros: '1000 ML',
+imagen: 'assets/wines/Ron-Dorado-ISSI-1L.jpg',
+precioUnitario: '4,800',
+precioCaja: '54,000',
+paisOrigen: '',
+cantidadCaja: '12',
+bodegasOrigen: 'Beveland, SA',
+},
 ]
-
 export const catalogoVodka = [{
     nombre: 'Vodka Kzarrof',
     tipo: 'vodka',
@@ -185,17 +195,6 @@ export const catalogoGin = [{
     bodegasOrigen: 'Beveland, SA',
 },
 {
-    nombre: 'Ginebra Blimey',
-    tipo: 'ginebra',
-    litros: '1000 ML',
-    imagen: 'assets/wines/Blimey-Dry-Gin.jpg',
-    precioUnitario: '4,550',
-    precioCaja: '54,600',
-    paisOrigen: '',
-    cantidadCaja: '12',
-    bodegasOrigen: 'Beveland, SA',
-},
-{
     nombre: 'Ginebra Issi',
     tipo: 'ginebra',
     litros: '1000 ML',
@@ -239,17 +238,6 @@ export const catalogoBrandy = [
 ]
 
 export const catalogoLicores = [{
-    nombre: 'Licor de Mango BV Land',
-    tipo: 'licor',
-    litros: '700 ML',
-    imagen: 'assets/wines/BV-Land-Mango.jpg',
-    precioUnitario: '8,000',
-    precioCaja: '48,000',
-    paisOrigen: '',
-    cantidadCaja: '6',
-    bodegasOrigen: 'Beveland, SA',
-},
-{
     nombre: 'Licor de Almendras BV Land',
     tipo: 'licor',
     litros: '700 ML',
