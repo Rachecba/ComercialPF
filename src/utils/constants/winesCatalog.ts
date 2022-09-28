@@ -1,8 +1,6 @@
 export const catalogoVinos = [
-
-
-{
-    nombre: 'Corona de Aragon Reserva',
+  {
+    nombre: 'Corona de Aragon Reserva.',
     tipo: 'tintos',
     litros: '750 ML',
     imagen: 'assets/wines/Corona-de-Aragon-Reserva.jpg',
@@ -11,8 +9,8 @@ export const catalogoVinos = [
     cantidadCaja: '6',
     paisOrigen: 'España, Cariñena',
     bodegasOrigen: 'Grandes Vinos',
-},
-{
+  },
+  {
     nombre: 'Castillo Monte La Reina Crianza',
     tipo: 'tintos',
     litros: '750 ML',
@@ -22,8 +20,8 @@ export const catalogoVinos = [
     cantidadCaja: '6',
     paisOrigen: 'España, Toro',
     bodegasOrigen: 'Castillo Monte la Reina',
-},
-{
+  },
+  {
     nombre: 'Vino Tinto EL VILLAR',
     tipo: 'tintos',
     litros: '5000 ML',
@@ -33,8 +31,8 @@ export const catalogoVinos = [
     cantidadCaja: '2',
     paisOrigen: 'España, Valencia',
     bodegasOrigen: 'El Villar de Arzobispo',
-},
-{
+  },
+  {
     nombre: 'Vino Rosado EL VILLAR',
     tipo: 'rosados',
     litros: '5000 ML',
@@ -44,8 +42,8 @@ export const catalogoVinos = [
     cantidadCaja: '2',
     paisOrigen: 'España, Valencia',
     bodegasOrigen: 'El Villar de Arzobispo',
-},
-{
+  },
+  {
     nombre: 'Vino Blanco EL VILLAR',
     tipo: 'blancos',
     litros: '5000 ML',
@@ -55,8 +53,8 @@ export const catalogoVinos = [
     cantidadCaja: '2',
     paisOrigen: 'España, Valencia',
     bodegasOrigen: 'El Villar de Arzobispo',
-},
-{
+  },
+  {
     nombre: 'Vino Espumoso Mount Blau',
     tipo: 'blancos',
     litros: '750 ML',
@@ -66,8 +64,8 @@ export const catalogoVinos = [
     cantidadCaja: '6',
     paisOrigen: 'España',
     bodegasOrigen: 'Lopez Morenas',
-},
-{
+  },
+  {
     nombre: 'IGLUP Vino Blanco',
     tipo: 'blancos',
     litros: '200 ML',
@@ -77,8 +75,8 @@ export const catalogoVinos = [
     cantidadCaja: '6',
     paisOrigen: 'España, Cariñena',
     bodegasOrigen: 'Grandes Vinos',
-},
-{
+  },
+  {
     nombre: 'IGLUP Vino Rosado',
     tipo: 'rosados',
     litros: '200 ML',
@@ -88,11 +86,11 @@ export const catalogoVinos = [
     cantidadCaja: '6',
     paisOrigen: 'España, Cariñena',
     bodegasOrigen: 'Grandes Vinos',
-},
+  },
 ]
 
 export const catalogoRon = [
-{
+  {
     nombre: 'Ron Relicario Superior',
     tipo: 'ron',
     litros: '700 ML',
@@ -102,8 +100,8 @@ export const catalogoRon = [
     paisOrigen: '',
     cantidadCaja: '4',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Ron Marama Fiji Spiced',
     tipo: 'ron',
     litros: '700 ML',
@@ -113,8 +111,8 @@ export const catalogoRon = [
     paisOrigen: '',
     cantidadCaja: '4',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Ron Relicario Supremo',
     tipo: 'ron',
     litros: '700 ML',
@@ -124,8 +122,8 @@ export const catalogoRon = [
     paisOrigen: '',
     cantidadCaja: '4',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Ron Blanco ISSI',
     tipo: 'ron',
     litros: '1000 ML',
@@ -135,20 +133,21 @@ export const catalogoRon = [
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Beveland, SA',
-},
-{
-nombre: 'Ron Dorado ISSI',
-tipo: 'ron',
-litros: '1000 ML',
-imagen: 'assets/wines/Ron-Dorado-ISSI-1L.jpg',
-precioUnitario: '4,800',
-precioCaja: '54,000',
-paisOrigen: '',
-cantidadCaja: '12',
-bodegasOrigen: 'Beveland, SA',
-},
+  },
+  {
+    nombre: 'Ron Dorado ISSI',
+    tipo: 'ron',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Ron-Dorado-ISSI-1L.jpg',
+    precioUnitario: '4,800',
+    precioCaja: '54,000',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Beveland, SA',
+  },
 ]
-export const catalogoVodka = [{
+export const catalogoVodka = [
+  {
     nombre: 'Vodka Issi',
     tipo: 'vodka',
     litros: '1000 ML',
@@ -158,8 +157,8 @@ export const catalogoVodka = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Vodka Krova',
     tipo: 'vodka',
     litros: '700 ML',
@@ -169,10 +168,11 @@ export const catalogoVodka = [{
     paisOrigen: '',
     cantidadCaja: '3',
     bodegasOrigen: 'Beveland, SA',
-},
+  },
 ]
 
-export const catalogoGin = [{
+export const catalogoGin = [
+  {
     nombre: 'Ginebra Jodhpur',
     tipo: 'ginebra',
     litros: '700 ML',
@@ -182,8 +182,8 @@ export const catalogoGin = [{
     paisOrigen: '',
     cantidadCaja: '4',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Ginebra Issi',
     tipo: 'ginebra',
     litros: '1000 ML',
@@ -193,40 +193,39 @@ export const catalogoGin = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Beveland, SA',
-},
+  },
 ]
 
 export const catalogoTequila = [
-    
-    {
-        nombre: 'Destilado de Agave ISSI',
-        tipo: 'tequila',
-        litros: '1000 ML',
-        imagen: 'assets/wines/Agave-Blanco-Issi.jpg',
-        precioUnitario: '7,500',
-        precioCaja: '90,000',
-        paisOrigen: '',
-        cantidadCaja: '12',
-        bodegasOrigen: 'Beveland SA',
-    },
+  {
+    nombre: 'Destilado de Agave ISSI',
+    tipo: 'tequila',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Agave-Blanco-Issi.jpg',
+    precioUnitario: '7,500',
+    precioCaja: '90,000',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Beveland SA',
+  },
 ]
 
 export const catalogoBrandy = [
-    
-    {
-        nombre: 'Brandy Issi',
-        tipo: 'brandy',
-        litros: '1000 ML',
-        imagen: 'assets/wines/Brandy-Issi.jpg',
-        precioUnitario: '7,700',
-        precioCaja: '92,400',
-        paisOrigen: '',
-        cantidadCaja: '12',
-        bodegasOrigen: 'Beveland SA',
-    },
+  {
+    nombre: 'Brandy Issi',
+    tipo: 'brandy',
+    litros: '1000 ML',
+    imagen: 'assets/wines/Brandy-Issi.jpg',
+    precioUnitario: '7,700',
+    precioCaja: '92,400',
+    paisOrigen: '',
+    cantidadCaja: '12',
+    bodegasOrigen: 'Beveland SA',
+  },
 ]
 
-export const catalogoLicores = [{
+export const catalogoLicores = [
+  {
     nombre: 'Licor de Almendras BV Land',
     tipo: 'licor',
     litros: '700 ML',
@@ -236,8 +235,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '6',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Uva Moscatel ¨Igardi¨',
     tipo: 'licor',
     litros: '750 ML',
@@ -247,8 +246,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '6',
     bodegasOrigen: 'Beveland, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Coconut CUBANERO',
     tipo: 'licor',
     litros: '1000 ML',
@@ -258,8 +257,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Menta Verde KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -269,8 +268,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Curaçao Blue KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -280,8 +279,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor Amaretto KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -291,8 +290,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Manzana Verde KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -302,8 +301,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Melón KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -311,10 +310,10 @@ export const catalogoLicores = [{
     precioUnitario: '4,700',
     precioCaja: '56,400',
     paisOrigen: '',
-    cantidadCaja: '12', 
+    cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Café KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -324,8 +323,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Banana KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -335,8 +334,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Fresa KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -346,8 +345,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Melocotòn KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -357,8 +356,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Triple Sec KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -368,8 +367,8 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
-{
+  },
+  {
     nombre: 'Licor de Cacao Oscuro KAMEL',
     tipo: 'licor',
     litros: '1000 ML',
@@ -379,5 +378,5 @@ export const catalogoLicores = [{
     paisOrigen: '',
     cantidadCaja: '12',
     bodegasOrigen: 'Deva, SA',
-},
+  },
 ]
